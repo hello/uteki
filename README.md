@@ -8,10 +8,11 @@ git submodule update --init --recursive
 # folder structure
 ```
 +-- uteki
-|   +-- apps    :   contains source of hello apps, linked to image with build_app.mk
-|   +-- lib     :   contains source of hello libraries, linked to the image with build_lib.mk
-|   +-- prebuild:   contains prebuilt apps and libraries, linked to the image with build_prebuilt.mk
-|   +-- external:   contains independent projects that require special handling to be build
-|                   planned procedure is to build these first then move the objects to the prebuilt directory
-|                   most of the time it is not necessary to rebuild them everytime unless we need to
+|   +-- apps    :   Contains source of hello apps, linked to image with build_app.mk
+|   +-- lib     :   Contains source of hello libraries, linked to the image with build_lib.mk
+|   +-- prebuild:   Contains prebuilt apps and libraries, linked to the image with build_prebuilt.mk
+|   +-- external:   Contains independent projects that require special handling to be built.  
+|   |  +-- {project}
+|   |  |  +-- bootstrap.sh :    At the core of each project contains bootstrap.sh, which is responsible for cross compiling
+|                               each project and moving the relevant binaries to the the prebuild folder.
 ```
