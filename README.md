@@ -10,7 +10,7 @@ git submodule update --init --recursive
 +-- uteki
 |   +-- apps    :   contains source of hello apps, linked to image with build_app.mk
 |   +-- lib     :   contains source of hello libraries, linked to the image with build_lib.mk
-|   +-- prebuilt:   contains prebuilt apps and libraries, linked to the image with build_prebuilt.mk
+|   +-- prebuild:   contains prebuilt apps and libraries, linked to the image with build_prebuilt.mk
 |   +-- external:   contains independent projects that require special handling to be build
 |                   planned procedure is to build these first then move the objects to the prebuilt directory
 ```
