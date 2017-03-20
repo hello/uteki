@@ -13,4 +13,5 @@ git submodule update --init --recursive
 |   +-- prebuild:   contains prebuilt apps and libraries, linked to the image with build_prebuilt.mk
 |   +-- external:   contains independent projects that require special handling to be build
 |                   planned procedure is to build these first then move the objects to the prebuilt directory
+|                   most of the time it is not necessary to rebuild them everytime unless we need to
 ```
