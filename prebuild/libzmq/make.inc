@@ -29,7 +29,7 @@
 ## POSSIBILITY OF SUCH DAMAGE.
 ##
 
-ifeq ($(CONFIG_LIBZMQ_SUPPORT), y)
+##ifeq ($(CONFIG_LIBZMQ_SUPPORT), y)
 
 LOCAL_PATH	:= $(call my-dir)
 BRCM_PATH 	:= $(LOCAL_PATH)
@@ -50,5 +50,5 @@ $(LOCAL_TARGET): $(LOCAL_MODULE)
 
 $(call add-target-into-build, $(LOCAL_TARGET))
 
-endif
+##endif
 
