@@ -38,7 +38,7 @@ BRCM_PATH 	:= $(LOCAL_PATH)
 include $(CLEAR_VARS)
 
 LOCAL_TARGET	:= prebuild_libzmq
-LOCAL_SRCS	:= lib include share
+LOCAL_SRCS	:= usr
 
 .PHONY: $(LOCAL_TARGET)
 
