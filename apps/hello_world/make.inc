@@ -64,7 +64,6 @@ $(LOCAL_TARGET): PRIVATE_PATH:=$(LOCAL_PATH)
 $(LOCAL_TARGET): $(LOCAL_MODULE)
 	@mkdir -p $(FAKEROOT_DIR)/usr/local/bin
 	@cp -dpRf $< $(FAKEROOT_DIR)/usr/local/bin
-	@cp -dpRf $(PRIVATE_PATH)/data/* $(FAKEROOT_DIR)/usr/local/bin
 	@echo "Build $@ Done."
 
 
