@@ -1,4 +1,4 @@
-prefix=/home/hello/kasa/ambarella/uteki/external/zeromq-4.2.1/out
+prefix=/home/hello/kasa/ambarella/uteki/external/zeromq-4.2.1/../../prebuild/libzmq/usr
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hello/kasa/ambarella/uteki/external/zeromq-4.2.1/out/lib'
+libdir='/home/hello/kasa/ambarella/uteki/external/zeromq-4.2.1/../../prebuild/libzmq/usr/lib'
