@@ -37,8 +37,8 @@ BRCM_PATH 	:= $(LOCAL_PATH)
 ###
 include $(CLEAR_VARS)
 
-LOCAL_TARGET	:= prebuild_libzmq
-LOCAL_SRCS	:= usr
+LOCAL_TARGET	:= prebuild_docker
+LOCAL_SRCS	:= etc sbin usr
 
 .PHONY: $(LOCAL_TARGET)
 
