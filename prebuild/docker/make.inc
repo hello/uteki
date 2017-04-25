@@ -38,7 +38,7 @@ BRCM_PATH 	:= $(LOCAL_PATH)
 include $(CLEAR_VARS)
 
 LOCAL_TARGET	:= prebuild_docker
-LOCAL_SRCS	:= etc sbin usr
+LOCAL_SRCS	:= etc sbin usr lib
 
 .PHONY: $(LOCAL_TARGET)
 
